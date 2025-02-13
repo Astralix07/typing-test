@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dda0dd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container for Login/Signup & Typing Test */
+.container {
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 1000px;
+}
+
+/* Input Fields */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Buttons */
+button {
+    width: 100%;
+    padding: 10px;
+    background: #dda0dd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* Switch Between Login & Signup */
+.switch-link {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #007bff;
+    cursor: pointer;
+}
+
+.switch-link:hover {
+    text-decoration: underline;
+}
+
+/* ---------------- */
+/* Typing Test Page */
+/* ---------------- */
+
+#typing-test-container {
+    display: none; /* Initially hidden until user logs in */
+    width: 500px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#sentence {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#user-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#timer {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+#results {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}

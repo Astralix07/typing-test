@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Signup</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/simple-keyboard@latest/build/css/index.css">
+<script src="https://cdn.jsdelivr.net/npm/simple-keyboard@latest/build/index.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
+     
+</head>
+<body>
+    <h1>
+        Welcome to Typing Speed Test!
+    </h1>
+    <div class="logo-container">
+        <img src="images/logo.png" alt="Keyboard Logo" class="keyboard-logo">
+    </div>
+    <div class="auth-container">
+        <div class="login-section">
+    <h2>Login</h2>
+    <input type="email" id="email" placeholder="Enter your email....">
+    <input type="password" id="password" placeholder="Enter your password....">
+    <button class="button" id="login-btn">Login</button></div>
+    <div class="signup-section">
+    <h2>Signup</h2>
+    <input type="email" id="signup-email" placeholder="Enter your email">
+    <input type="password" id="signup-password" placeholder="Enter your password">
+    <button class="button" id="signup-btn">Signup</button>
+</div>
+</div>
+<div id="keyboard"></div>
+    <script src="script.js"></script> 
+</body>
+</html>
